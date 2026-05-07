@@ -1,6 +1,3 @@
-# Kiro specs and configuration
-.kiro/
-
 # OS files
 .DS_Store
 Thumbs.db
@@ -12,6 +9,10 @@ desktop.ini
 *.swp
 *.swo
 *~
+
+# Dependencies
+node_modules/
+.env
 
 # Logs
 *.log

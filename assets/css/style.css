@@ -1,0 +1,408 @@
+:root {
+            --bg-color: #fdfcf9;
+            --black: #222222;
+            --pink: #ffc4f4;
+            --yellow: #ffec8a;
+            --blue: #a3f0fa;
+            --green: #d1f593;
+            --orange: #ffbba8;
+            --purple: #e0c2ff;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        @font-face {
+            font-family: "Page1Font";
+            src: url("https://cdn.jsdelivr.net/gh/quran/quran.com-frontend-next@master/public/fonts/quran/hafs/v4/ot-svg/light/woff2/p1.woff2") format("woff2");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        body {
+            font-family: "Fredoka", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background-color: var(--bg-color);
+            color: var(--black);
+            margin: 0;
+            padding: 20px;
+            background-image: radial-gradient(var(--black) 1px, transparent 1px);
+            background-size: 30px 30px;
+            min-height: 100vh;
+        }
+
+        [hidden] {
+            display: none !important;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-bottom: 50px;
+        }
+
+        .header {
+            background-color: var(--white);
+            border: 4px solid var(--black);
+            box-shadow: 6px 6px 0 var(--black);
+            border-radius: 24px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+            transform: rotate(-0.5deg);
+        }
+
+        .header h1 {
+            font-size: 3.2rem;
+            margin: 0;
+            color: var(--black);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .header p {
+            font-size: 1.6rem;
+            margin: 10px 0 0;
+            color: var(--black);
+            font-weight: 700;
+        }
+
+        .card {
+            border: 4px solid var(--black);
+            box-shadow: 6px 6px 0 var(--black);
+            border-radius: 20px;
+            padding: 32px;
+            margin-bottom: 32px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .selector-card,
+        .info-card,
+        .bismillah {
+            background-color: var(--white);
+        }
+
+        .selector-card {
+            transform: rotate(0.5deg);
+            align-items: center;
+            text-align: center;
+        }
+
+        .selector-label {
+            font-size: 1.25rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .surah-select {
+            width: min(100%, 460px);
+            border: 4px solid var(--black);
+            border-radius: 16px;
+            padding: 18px 40px 18px 22px;
+            font-size: 1.35rem;
+            font-family: inherit;
+            font-weight: 700;
+            background: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23222222' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E") no-repeat right 18px center / 18px auto, linear-gradient(135deg, #fffef5, #d6f7ff);
+            color: var(--black);
+            box-shadow: 5px 5px 0 var(--black);
+            appearance: none;
+            cursor: pointer;
+        }
+
+        .info-card {
+            transform: rotate(-0.25deg);
+        }
+
+        .about-title,
+        .section-heading,
+        .lessons-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .section-heading {
+            background-color: var(--yellow);
+            border: 4px solid var(--black);
+            box-shadow: 6px 6px 0 var(--black);
+            border-radius: 20px;
+            padding: 24px 28px;
+            margin: 0 0 30px;
+            text-align: center;
+            transform: rotate(0.25deg);
+        }
+
+        .about-list,
+        .lessons-list,
+        .word-list {
+            margin: 0;
+            padding-left: 24px;
+            line-height: 1.6;
+            font-size: 1.5rem;
+        }
+
+        .about-list li + li,
+        .lessons-list li + li,
+        .word-list li + li {
+            margin-top: 6px;
+        }
+
+        .summary {
+            margin: 0;
+            font-size: 1.15rem;
+            line-height: 1.7;
+        }
+
+        .bismillah {
+            text-align: center;
+            transform: rotate(0.5deg);
+            align-items: center;
+        }
+
+        .bismillah .arabic {
+            text-align: center;
+            font-size: 4rem;
+        }
+
+        .verse-card {
+            transition: transform 0.15s ease-in-out;
+        }
+
+        .verse-card:hover {
+            transform: translate(-2px, -2px);
+        }
+
+        #ayah-list .verse-card:nth-child(6n + 1) {
+            background-color: var(--pink);
+        }
+
+        #ayah-list .verse-card:nth-child(6n + 2) {
+            background-color: var(--yellow);
+        }
+
+        #ayah-list .verse-card:nth-child(6n + 3) {
+            background-color: var(--blue);
+        }
+
+        #ayah-list .verse-card:nth-child(6n + 4) {
+            background-color: var(--green);
+        }
+
+        #ayah-list .verse-card:nth-child(6n + 5) {
+            background-color: var(--orange);
+        }
+
+        #ayah-list .verse-card:nth-child(6n + 6) {
+            background-color: var(--purple);
+        }
+
+        .badge {
+            position: absolute;
+            top: -25px;
+            left: -20px;
+            background-color: var(--white);
+            border: 4px solid var(--black);
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            font-weight: 700;
+            box-shadow: 5px 5px 0 var(--black);
+            z-index: 1;
+        }
+
+        .arabic {
+            font-family: "PageFont", Arial, sans-serif;
+            font-size: 3.55rem;
+            text-align: right;
+            direction: rtl;
+            margin: 0;
+            line-height: 1.6;
+            color: var(--black);
+        }
+
+        .ayah-end {
+            color: var(--black);
+            font-size: 4rem;
+            margin-right: 10px;
+        }
+
+        .study-box,
+        .english {
+            background: rgba(255, 255, 255, 0.55);
+            padding: 20px;
+            border-radius: 12px;
+            border: 3px solid rgba(0, 0, 0, 0.12);
+        }
+
+        .study-title {
+            margin: 0 0 10px;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .word-ar {
+            font-family: "PageFont", Arial, sans-serif;
+            direction: rtl;
+            font-size: 2.4rem;
+        }
+
+        .english {
+            font-size: 2.1rem;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+
+        .emoji {
+            font-size: 2rem;
+            margin-right: 12px;
+            vertical-align: middle;
+        }
+
+        .play-btn {
+            background-color: var(--white);
+            border: 4px solid var(--black);
+            box-shadow: 5px 5px 0 var(--black);
+            border-radius: 14px;
+            padding: 15px 25px;
+            font-size: 1.25rem;
+            font-family: inherit;
+            font-weight: 700;
+            color: var(--black);
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            align-self: flex-start;
+            transition: all 0.1s ease-in-out;
+        }
+
+        .bismillah .play-btn {
+            align-self: center;
+        }
+
+        .play-btn:hover {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0 var(--black);
+        }
+
+        .play-btn:active,
+        .play-btn.playing {
+            transform: translate(4px, 4px);
+            box-shadow: 0 0 0 var(--black);
+            background-color: var(--black);
+            color: var(--white);
+        }
+
+        .lessons-card {
+            background-color: #fff8d9;
+            transform: rotate(0.25deg);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding-bottom: 30px;
+            }
+
+            .header {
+                padding: 25px 20px;
+                margin-bottom: 24px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+                letter-spacing: 1px;
+            }
+
+            .header p {
+                font-size: 1.2rem;
+                line-height: 1.4;
+            }
+
+            .card,
+            .section-heading {
+                padding: 24px 20px;
+                margin-bottom: 24px;
+            }
+
+            .about-title,
+            .section-heading,
+            .lessons-title {
+                font-size: 1.5rem;
+            }
+
+            .arabic {
+                font-size: 3.5rem;
+                line-height: 1.5;
+            }
+
+            .bismillah .arabic {
+                font-size: 3rem;
+            }
+
+            .ayah-end {
+                font-size: 2.8rem;
+            }
+
+            .english {
+                font-size: 1.5rem;
+            }
+
+            .badge {
+                width: 50px;
+                height: 50px;
+                font-size: 1.4rem;
+                top: -15px;
+                left: -15px;
+            }
+
+            .play-btn {
+                align-self: stretch;
+                font-size: 1.1rem;
+                padding: 12px 20px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            body {
+                padding: 8px;
+            }
+
+            .header h1 {
+                font-size: 1.7rem;
+            }
+
+            .header p {
+                font-size: 1rem;
+            }
+
+            .card,
+            .section-heading {
+                padding: 20px 16px;
+            }
+
+            .arabic {
+                font-size: 2.8rem;
+            }
+
+            .bismillah .arabic {
+                font-size: 2.5rem;
+            }
+        }
