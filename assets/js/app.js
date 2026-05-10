@@ -94,7 +94,10 @@ document.addEventListener("DOMContentLoaded", () => {
                             <div class="arabic">${verse.arabic}</div>
                             ${buildWordList(verse.words)}
                             <div class="english"><span class="emoji">${verse.emoji}</span>${verse.meaning}</div>
-                            <button class="play-btn" data-default-label="Play Ayah" onclick="playAyah(${verse.number}, this)"><span>🔊</span> Play Ayah</button>
+                            <div class="button-group">
+                                <button class="play-btn" data-default-label="Play Ayah" onclick="playAyah(${verse.number}, this)"><span>🔊</span> Play Ayah</button>
+                                <button class="play-btn" data-default-label="Play Mashari" onclick="playAyah(${verse.number}, this, 'mashari')"><span>🔊</span> Play Mashari</button>
+                            </div>
                         </div>
                     `)
                     .join("");
@@ -124,11 +127,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 renderLessons(surah);
             }
 
-            window.playAyah = function(ayahNumber, buttonElement) {
+            window.playAyah = function(ayahNumber, buttonElement, reciter = 'minshawy') {
                 const currentSurah = surahData[currentSurahKey];
+                const activeAudioBase = reciter === 'mashari' 
+                    ? "https://everyayah.com/data/Alafasy_128kbps/"
+                    : audioBase;
+                
                 const audioUrl = ayahNumber === 0
-                    ? `${audioBase}001001.mp3`
-                    : `${audioBase}${pad3(currentSurah.number)}${pad3(ayahNumber)}.mp3`;
+                    ? `${activeAudioBase}001001.mp3`
+                    : `${activeAudioBase}${pad3(currentSurah.number)}${pad3(ayahNumber)}.mp3`;
 
                 if (currentButton === buttonElement && buttonElement.classList.contains("playing")) {
                     stopCurrentAudio();
