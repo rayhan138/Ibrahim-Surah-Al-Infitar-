@@ -11,7 +11,7 @@ For example, to load Page 586:
 ```css
 @font-face {
     font-family: "PageFont";
-    src: url("https://cdn.jsdelivr.net/gh/quran/quran.com-frontend-next@master/public/fonts/quran/hafs/v4/ot-svg/light/woff2/p586.woff2") format("woff2");
+    src: url("https://verses.quran.foundation/fonts/quran/hafs/v4/ot-svg/light/woff2/p586.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;

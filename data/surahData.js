@@ -146,7 +146,7 @@ const surahData = {
           "takweer": {
                     "number": 81,
                     "title": "Surah At-Takweer (The Folding Up)",
-                    "sectionHeading": "Word by Word Meaning (Verses 1–14)",
+                    "sectionHeading": "Word by Word Meaning (Verses 1–29)",
                     "about": {
                               "title": "About the Surah",
                               "items": [
@@ -420,6 +420,370 @@ const surahData = {
                                         ],
                                         "meaning": "Everyone will know what deeds they did.",
                                         "emoji": "🧠"
+                              },
+                              {
+                                        "number": 15,
+                                        "arabic": "ﲂ ﲃ ﲄ ﲅ",
+                                        "words": [
+                                                  {
+                                                            "arabic": "ﲂ",
+                                                            "meaning": "But nay"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲃ",
+                                                            "meaning": "I swear"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲄ",
+                                                            "meaning": "by the retreating planets"
+                                                  }
+                                        ],
+                                        "meaning": "But I swear by the retreating stars",
+                                        "emoji": "✨"
+                              },
+                              {
+                                        "number": 16,
+                                        "arabic": "ﲆ ﲇ ﲈ",
+                                        "words": [
+                                                  {
+                                                            "arabic": "ﲆ",
+                                                            "meaning": "Those that run"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲇ",
+                                                            "meaning": "(and) disappear"
+                                                  }
+                                        ],
+                                        "meaning": "those that run their courses and disappear",
+                                        "emoji": "🌠"
+                              },
+                              {
+                                        "number": 17,
+                                        "arabic": "ﲉ ﲊ ﲋ ﲌ",
+                                        "words": [
+                                                  {
+                                                            "arabic": "ﲉ",
+                                                            "meaning": "And the night"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲊ",
+                                                            "meaning": "when"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲋ",
+                                                            "meaning": "it departs"
+                                                  }
+                                        ],
+                                        "meaning": "and by the night when it fades away",
+                                        "emoji": "🌙"
+                              },
+                              {
+                                        "number": 18,
+                                        "arabic": "ﲍ ﲎ ﲏ ﲐ",
+                                        "words": [
+                                                  {
+                                                            "arabic": "ﲍ",
+                                                            "meaning": "And the dawn"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲎ",
+                                                            "meaning": "when"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲏ",
+                                                            "meaning": "it breathes"
+                                                  }
+                                        ],
+                                        "meaning": "and by the dawn when it breathes",
+                                        "emoji": "🌅"
+                              },
+                              {
+                                        "number": 19,
+                                        "arabic": "ﲑ ﲒ ﲓ ﲔ ﲕ",
+                                        "words": [
+                                                  {
+                                                            "arabic": "ﲑ",
+                                                            "meaning": "Indeed, it"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲒ",
+                                                            "meaning": "(is) surely a word"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲓ",
+                                                            "meaning": "(of) a Messenger"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲔ",
+                                                            "meaning": "noble"
+                                                  }
+                                        ],
+                                        "meaning": "Indeed, this is the word of a noble messenger",
+                                        "emoji": "📜"
+                              },
+                              {
+                                        "number": 20,
+                                        "arabic": "ﲖ ﲗ ﲘ ﲙ ﲚ ﲛ ﲜ",
+                                        "words": [
+                                                  {
+                                                            "arabic": "ﲖ",
+                                                            "meaning": "Possessor of"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲗ",
+                                                            "meaning": "power"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲘ",
+                                                            "meaning": "with"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲙ",
+                                                            "meaning": "(the) Owner of"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲚ",
+                                                            "meaning": "the Throne"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲛ",
+                                                            "meaning": "secure"
+                                                  }
+                                        ],
+                                        "meaning": "full of power, held in honour by the Lord of the Throne",
+                                        "emoji": "👑"
+                              },
+                              {
+                                        "number": 21,
+                                        "arabic": "ﲝ ﲞ ﲟ ﲠ",
+                                        "words": [
+                                                  {
+                                                            "arabic": "ﲝ",
+                                                            "meaning": "One to be obeyed"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲞ",
+                                                            "meaning": "and"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲟ",
+                                                            "meaning": "trustworthy"
+                                                  }
+                                        ],
+                                        "meaning": "obeyed there, and trustworthy",
+                                        "emoji": "🤝"
+                              },
+                              {
+                                        "number": 22,
+                                        "arabic": "ﲡ ﲢ ﲣ ﲤ",
+                                        "words": [
+                                                  {
+                                                            "arabic": "ﲡ",
+                                                            "meaning": "And not"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲢ",
+                                                            "meaning": "(is) your companion"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲣ",
+                                                            "meaning": "mad"
+                                                  }
+                                        ],
+                                        "meaning": "And your companion is not insane",
+                                        "emoji": "👥"
+                              },
+                              {
+                                        "number": 23,
+                                        "arabic": "ﲥ ﲦ ﲧ ﲨ ﲩ",
+                                        "words": [
+                                                  {
+                                                            "arabic": "ﲥ",
+                                                            "meaning": "And certainly"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲦ",
+                                                            "meaning": "he saw him"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲧ",
+                                                            "meaning": "in the horizon"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲨ",
+                                                            "meaning": "the clear"
+                                                  }
+                                        ],
+                                        "meaning": "And he certainly saw him on the clear horizon",
+                                        "emoji": "🌄"
+                              },
+                              {
+                                        "number": 24,
+                                        "arabic": "ﲪ ﲫ ﲬ ﲭ ﲮ ﲯ",
+                                        "words": [
+                                                  {
+                                                            "arabic": "ﲪ",
+                                                            "meaning": "And not"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲫ",
+                                                            "meaning": "he (is)"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲬ",
+                                                            "meaning": "on"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲭ",
+                                                            "meaning": "the unseen"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲮ",
+                                                            "meaning": "a withholder"
+                                                  }
+                                        ],
+                                        "meaning": "And he does not withhold the knowledge of the unseen",
+                                        "emoji": "👁️"
+                              },
+                              {
+                                        "number": 25,
+                                        "arabic": "ﲰ ﲱ ﲲ ﲳ ﲴ ﲵ",
+                                        "words": [
+                                                  {
+                                                            "arabic": "ﲰ",
+                                                            "meaning": "And not"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲱ",
+                                                            "meaning": "it"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲲ",
+                                                            "meaning": "(is the) word"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲳ",
+                                                            "meaning": "(of) Shaitaan"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲴ",
+                                                            "meaning": "accursed"
+                                                  }
+                                        ],
+                                        "meaning": "Nor is it the word of an accursed devil",
+                                        "emoji": "🚫"
+                              },
+                              {
+                                        "number": 26,
+                                        "arabic": "ﲶ ﲷ ﲸ",
+                                        "words": [
+                                                  {
+                                                            "arabic": "ﲶ",
+                                                            "meaning": "So where"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲷ",
+                                                            "meaning": "are you going"
+                                                  }
+                                        ],
+                                        "meaning": "So where are you going?",
+                                        "emoji": "🚶"
+                              },
+                              {
+                                        "number": 27,
+                                        "arabic": "ﲹ ﲺ ﲻ ﲼ ﲽ ﲾ",
+                                        "words": [
+                                                  {
+                                                            "arabic": "ﲹ",
+                                                            "meaning": "Not"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲺ",
+                                                            "meaning": "it"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲻ",
+                                                            "meaning": "(is) except"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲼ",
+                                                            "meaning": "a reminder"
+                                                  },
+                                                  {
+                                                            "arabic": "ﲽ",
+                                                            "meaning": "to the worlds"
+                                                  }
+                                        ],
+                                        "meaning": "It is only a reminder to the whole world",
+                                        "emoji": "💡"
+                              },
+                              {
+                                        "number": 28,
+                                        "arabic": "ﲿ ﳀ ﳁ ﳂ ﳃ ﳄ",
+                                        "words": [
+                                                  {
+                                                            "arabic": "ﲿ",
+                                                            "meaning": "For whoever"
+                                                  },
+                                                  {
+                                                            "arabic": "ﳀ",
+                                                            "meaning": "wills"
+                                                  },
+                                                  {
+                                                            "arabic": "ﳁ",
+                                                            "meaning": "among you"
+                                                  },
+                                                  {
+                                                            "arabic": "ﳂ",
+                                                            "meaning": "to"
+                                                  },
+                                                  {
+                                                            "arabic": "ﳃ",
+                                                            "meaning": "take a straight way"
+                                                  }
+                                        ],
+                                        "meaning": "for whoever of you wills to take the Straight Way",
+                                        "emoji": "🛣️"
+                              },
+                              {
+                                        "number": 29,
+                                        "arabic": "ﳅ ﳆ ﳇ ﳈ ﳉ ﳊ ﳋ ﳌ ﳍ",
+                                        "words": [
+                                                  {
+                                                            "arabic": "ﳅ",
+                                                            "meaning": "And not"
+                                                  },
+                                                  {
+                                                            "arabic": "ﳆ",
+                                                            "meaning": "you will"
+                                                  },
+                                                  {
+                                                            "arabic": "ﳇ",
+                                                            "meaning": "except"
+                                                  },
+                                                  {
+                                                            "arabic": "ﳈ",
+                                                            "meaning": "that"
+                                                  },
+                                                  {
+                                                            "arabic": "ﳉ",
+                                                            "meaning": "wills"
+                                                  },
+                                                  {
+                                                            "arabic": "ﳊ",
+                                                            "meaning": "Allah"
+                                                  },
+                                                  {
+                                                            "arabic": "ﳋ",
+                                                            "meaning": "Lord"
+                                                  },
+                                                  {
+                                                            "arabic": "ﳌ",
+                                                            "meaning": "(of) the worlds"
+                                                  }
+                                        ],
+                                        "meaning": "But you cannot will it, except by the Will of Allah, the Lord of all worlds.",
+                                        "emoji": "🤲"
                               }
                     ]
           }
